@@ -1,9 +1,21 @@
+import DataTable from "components/ DataTable";
+import Footer from "components/Footer";
+import NavTab from "components/NavBar";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>oi</h1>
-    </div>
+    <>
+      <NavTab />
+      <div className="container">
+        <h1 className="text-primary">oi</h1>
+      </div>
+      <div>
+        <DataTable />
+      </div>
+      
+        <Footer />
+      
+    </>
   );
 }
 
