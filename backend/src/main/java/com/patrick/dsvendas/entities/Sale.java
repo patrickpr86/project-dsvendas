@@ -29,6 +29,7 @@ public class Sale implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Getter
+	@Setter
 	private Long id;
 
 	@Getter
